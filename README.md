@@ -35,3 +35,7 @@ a set pathway under normal conditions. Disturbances in these pathways may leads 
 27. import os
 28. import xlwt
 29. import glob
+
+# Experimental Work
+
+The HRV was carried out by Time domain techniques, this feature was calculated for all the samples of the training set and testing set and store for recognition purposes. We applied classification of two different datasets i.e. Heart Beat sensor dataset and ECG Machine Dataset. The entire dataset of ECG machine and heartbeat sensor was divided into 70-30 ratio that is 70% for training and 30% for testing and pass for classification using K-Nearest Neighbor (KNN), Neural Network (NN) and Support Vector Machine (SVM) classifier. KNN is used as a classifier in this study. It is a Nonparametric and supervised learning classifier, KNN has a significant place among classifiers and is commonly prepared in various science and engineering applications. Total 1060 samples of analog and digital heartbeat sensor i.e. 530 of analog sensor and 530 of digital sensor and 530 ECG machine samples used in this experiment. Out of 530 samples of analog and digital sensors, 371 samples were used for training and 159 used for testing. So after applying KNN we achieved 98% accuracy from the analog sensor and 93% result from the digital sensor. Similarly, the ECG machine sample passes for recognition and it gives 95% accuracy.
